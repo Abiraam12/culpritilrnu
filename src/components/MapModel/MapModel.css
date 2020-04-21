@@ -1,0 +1,15 @@
+.GoogleMapModal{
+    padding:10px;
+    z-index: 10000000000;
+    
+}
+.GoogleMapModal .btn-primary{
+	background: white;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.GoogleMapModal .ant-modal-header{
+	padding-bottom:0!important;
+}
+

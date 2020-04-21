@@ -1,0 +1,11 @@
+.__nearby-trainers{
+    margin: 10px;
+    font-size: 5vw!important;
+    line-height: normal;
+    color: grey;
+}
+
+.__nearby-trainers .text_size-1{
+    width: 100%;
+    white-space: normal;
+}

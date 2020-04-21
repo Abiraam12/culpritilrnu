@@ -1,0 +1,71 @@
+
+.Trainer_div1{
+  display: flex;
+}
+.Trainerfav_name{
+  font-size: 4.5vw;
+  width: 85%;
+}
+.Trainerfav_img{
+  width: 100%;
+  height: auto;
+}
+.Trainer_div2{
+  margin-top: 10px;
+  display: flex;
+}
+.trainerfav_description{
+  margin-left: 10px;
+  width: 55%;
+}
+.trainerfav_name2{
+  color: #0F3EB0;
+}
+.trainerfav_info{
+  text-align: justify;
+}
+.trainerfav_bookbutton{
+  font-size: 3vw;
+  background-color: #0F3EB0;
+  color: #fff;
+  border: 0.5px blue;
+  border-radius: 3px;
+}
+.trainerfav_bookbutton:hover{
+  cursor: pointer;
+}
+.Add_fav_main{
+border-top: 0.5px solid #ddd;
+border-bottom: 0.5px solid #ddd;
+}
+.Add_fav_option{
+  padding: 8px;
+  border-bottom: 0.5px solid #ddd;
+}
+.Add_fav_option .ant-checkbox-inner {
+  border: 1px solid #0F3EB0 !important;
+  background-color: #fff !important;
+}
+.Add_fav_option .ant-checkbox-inner::after{
+  transform: rotate(0deg) scale(1) translate(-50%, -50%) !important;
+  top: 50% !important;
+  left: 50% !important;
+  width: 12px !important;
+  height: 12px !important;
+ 
+  padding: 5px !important;
+  background-color: #0F3EB0 ; 
+  border: 2px solid #fff !important;
+}
+.Add_fav_option .ant-checkbox-wrapper{
+  margin-left: 8px;
+}
+.Add_fav_option span{
+    font-weight: bold;
+    font-family: SF-Pro-Display-Regular;
+
+    font-size: 3.5vw;
+}
+.Add_fav_option .chkbx{
+  width: 80%;
+}

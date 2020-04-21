@@ -1,0 +1,142 @@
+.modal_basic_content{
+    font-size: 1.25rem;
+}
+.modal_group1{
+    display:flex;
+    margin-top: 30px;
+}
+.basic_text_input{
+    border: solid 0.5px grey;
+    height: 40px;
+    width: 50%;
+    font-size: medium;
+    padding-left: 10px;
+}
+.basic_textarea_input{
+    border: solid 0.5px grey;
+    height: 60px;
+    width: 50%;
+    font-size: medium;
+    padding-left: 10px;
+}
+.addvenue_subheaders{
+    color: grey;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.basic_location_input{
+    border: solid 0.5px grey;
+    height: 40px;
+    width: 25%;
+    font-size: medium;
+    padding-left: 10px;
+
+}
+
+.location_map_subheader{
+   color: #3562D0;
+   padding-left: 15px;
+   cursor: pointer; 
+   display: flex;
+   align-items: center;
+}
+.addvenue_modalfooternew{
+border-top: solid 0px !important;
+display: grid !important;
+justify-content: center !important;
+}
+.addvenue_modalfooternew button{
+    width: 400px;
+    color: white;
+    height: 50px;
+    margin-top: 15px;
+}
+
+
+.GoogleMapModal{
+	padding:20px;
+}
+.GoogleMapModal .btn-primary{
+	background: white;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.GoogleMapModal .ant-modal-header{
+	padding-bottom:0!important;
+}
+
+.dis-none{
+    display: none;
+}
+.addvenue_modal_header{
+    margin: 0px;
+    display: flex;
+    font-size: 1.5rem;
+}
+.addvenue_MODAL .ant-modal-footer{
+    display: none !important;
+}
+.modal_fa_map .card-header{
+    display: flex;
+    background-color:#fff;
+}
+.modal_fa_map .card-footer{
+    background-color:#fff;
+    display: flex;
+    justify-content: flex-end;
+}
+.modal_fa_map .modhead_fa_map{
+    font-size: 1.25rem;
+}
+.modal_fa_map .moda_close_btn{
+    position: absolute;
+    right:20px;
+    top: 15px;
+    color: grey;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.modal_fa_map .map_cancel_btn{
+color: rgba(0, 0, 0, 0.65);
+background: #fff;
+margin-right: 15px;
+}
+.modal_fa_map .map_cancel_btn:hover{
+    color: rgba(0, 0, 0, 0.65);
+    background: #fff;
+    margin-right: 15px;
+    opacity: 70%;
+
+    }
+
+.modal_fa_map .map_ok_btn{  
+color: #fff;
+background-color: #1890ff;
+border-color: #1890ff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.modal_fa_map .map_ok_btn:hover{  
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    opacity: 70%;
+
+    }
+    .modal_basic_content{
+        text-align:left;
+    }
+    .AddVenuenew_modal .modal-header{
+        padding-left: 0px !important;
+    }
+
+.addvenue_modalfooternew .ant-modal-footer{
+       display: none !important;
+   }

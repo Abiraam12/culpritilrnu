@@ -1,0 +1,238 @@
+/*home css*/
+.home_droddownflex{
+	display:flex;
+	justify-content:center;
+	width:100%;
+	align-items:center;
+
+}
+.home_droddownflex >span{
+	color:white;
+	padding-right:10px;
+    padding-left:10px;
+	font-size:22px;
+}
+.home_droddownflex .home_dropdownflexItem{
+	padding-left:8px;
+	padding-right:8px;
+	position:relative;
+}
+.venue-palces
+{
+	display:flex;
+}
+.home_dropdownflexItem .dropdown-btn{
+	    line-height:24px!important;
+    font-size:16px!important;
+
+}
+@media only screen and (max-width:980px) {
+	.HomePageDiv .rectangle:nth-child(1) .home_droddownflex{
+		justify-content:center;
+	}
+	.HomePageDiv .rectangle:nth-child(1) .in-header{
+		    width:100%!important;
+	}
+	.HomePageDiv .rectangle:nth-child(1) .logoutBtn{
+		
+	}
+}
+
+
+
+	.trainer-title{
+		background-color: orange;
+		
+	}
+	.trainer-title__text{
+		font-family: SFProDisplay-Regular !important;
+		text-align:"left";
+		color:white;
+		padding:"12px"
+	}
+	.trainer-title_filter{
+		display:flex;
+		
+		background-color: orange;
+		}
+		.trainer-title__text_filter{
+			width: 70%;
+			font-family: SFProDisplay-Regular !important;
+			display: flex;
+			align-items: center;
+		justify-content: center;
+				color:white;
+				font-size: 4vw ;
+				padding: 5px;
+		}
+	.more_filter{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: SFProDisplay-Regular !important;
+		color:white;
+		background-color:#0F3EB0;
+		padding:0px 10px;
+		border: 1.5px solid rgb(13, 51, 139);
+		font-size:3.5vw;
+        width: 30%;
+
+	}
+	.more_filter:hover{
+        cursor: pointer;
+	}
+	.dropdwn_icons_filter{
+		margin-left: 5px !important;
+	}
+	.filter_expand{
+		width: 100%;
+		background-color: rgb(13, 51, 139);
+	}
+	.filter_expand .filter_contents1 .drpdwn_Contents{
+		width: 50% !important;
+		background-color: #fff !important;
+		line-height: 18.4px !important;
+		font-size: 3vw !important;
+
+	}
+	.filter_expand .popupbox-icon{
+		color: #0F3EB0;
+	}
+.filter_contents1{
+	padding: 10px 0px 5px 10px!important ;
+}
+.filter_contents2{
+	display: flex;
+	padding: 5px 0px 10px 10px!important ;
+
+}
+.filter_expand .filter_contents2 .drpdwn_Contents{
+	background-color: #fff !important;
+	width: 22vw !important;
+	margin-right: 10px;
+	line-height: 18.4px !important;
+	font-size: 3vw !important;
+}
+.filter_divider_parent{
+	width: 100%;
+	height: 1px;
+	padding-bottom: 5px ;
+	display: flex;
+	justify-content: center;
+}
+.filter_divider_child{
+	width: 95%;
+	border: 0.5px solid #0F3EB0;
+}
+.filter_checkboxes{
+	padding:5px 0px 10px 0px;
+}
+.filter_checkboxes span{
+	color: #fff;
+}
+.filter_checkboxes .ant-checkbox-inner {
+	border: 2px solid #fff !important;
+	background-color: #0F3EB0;
+}
+.filter_checkboxes .ant-checkbox-inner::after{
+	transform: rotate(0deg) scale(1) translate(-50%, -50%);
+    top: 50% !important;
+    left: 50% !important;
+    width: 12px !important;
+	height: 12px !important;
+	border: 6px solid #fff !important;
+}
+.filter_checkboxes .ant-checkbox-wrapper{
+	margin-left: 8px;
+}
+.in-header{
+	width: 1262.8px;
+
+    width: calc(100% - 236px);
+
+    margin: 0 auto;
+    align-items: flex-end;
+
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.MuiInput-underline::before{
+	transition: none !important;
+	border-bottom: none !important;
+}
+.MuiInput-underline:after{
+	transition: none !important;
+	border-bottom: none !important;
+}
+
+.__datepicker{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    border-radius: 42px;
+    padding: 0px 0px 0px 11px;
+    width: 134px;
+    margin-right: 25px;
+    /* width: 110px; */
+    /* line-height: 24px!important; */
+    height: 34px;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center !important;
+
+}
+@media only screen and (max-width:767px) {
+	.home_droddownflex >span{
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+
+.heading_search{
+	font-size: 4vw !important;
+
+}
+.home_droddownflex .home_dropdownflexItem {
+	padding: 0px !important;
+	margin: 0px 10px !important;
+} 
+
+
+.__datepicker {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    border-radius: 42px;
+    padding: 0px 0px 0px 5px;
+    /* width: 13vw; */
+    margin-right: 10px;
+    width: 17vw;
+    /* line-height: 24px!important; */
+    height: 28px;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center !important;
+}
+}
+
+.MuiPaper-root{
+         margin-top: 10px !important;
+}
+
+.MuiPickersDay-daySelected{
+	background-color: #ee7807 !important;
+}
+@media only screen and (max-width:500px) {
+
+.home_dropdownflexItem .dropdown-btn{
+	font-size:3.5vw!important;
+	line-height: 18.4px !important;
+}
+.home_droddownflex .home_dropdownflexItem {
+	padding: 0px !important;
+	margin: 0px 5px !important;
+} 
+}

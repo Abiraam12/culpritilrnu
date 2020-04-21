@@ -1,0 +1,215 @@
+
+.specific1.text.disabled {
+    background:rgba(197, 197, 197, 0.5)!important;
+    border:transparent;
+}
+.specific1.text.disabled .svgblock.activesvg{
+filter:saturate(0)!important;
+    opacity:0.5;
+}
+.under-text.disabled{
+  opacity:0.5;
+}
+.disabledMain .main-menu{
+  visibility:hidden;
+}
+.specific1.text.disabled svg g, .specific1.text.disabled svg path {
+  fill:grey!important;
+  opacity:0.8;
+} 
+.ant-modal.splitSLotFormDivModal{
+  display: flex;
+  justify-content: center;
+}
+.specific1
+{
+  border-radius:55px;
+  border:solid 1px #EA5B03;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  cursor: pointer;
+  /*margin-left:20px;*/
+
+  position:relative;
+}
+.specific1:hover{
+  background:#EA5C04;
+}
+.specific1 p{
+  margin:0;
+  padding:6px;
+  white-space:nowrap; 
+  overflow:hidden;
+  text-overflow:ellipsis; 
+  max-height:3.6em;
+}
+
+.circle-div
+{
+ width:1439px;
+ height:469px;
+ background-color:#ea5b03;
+
+}
+
+.in-circle
+{
+	width:calc(100% - 290px);
+	margin:0 auto;
+	display:flex;
+
+}
+
+.Rectangle {
+
+  width:351.9px;
+  height:50px;
+  border-radius:42px;
+  background-color:#fff;
+}
+
+.main-menu {
+  background:white;
+  height:27px;
+  width:100%;
+  padding:0px;
+  margin:0px auto;
+  border-bottom:1px solid transparent !important;
+}
+
+ 
+
+.specificVenue .main-menu-select1:after{
+  content:"";
+  position:absolute;
+  bottom: -4px;    /*left:50%;*/
+  margin-left:35px;
+  width:0px;
+  height:0px;
+  /*margin:0px auto;*/
+  border-left:15px solid transparent;
+  border-right:15px solid transparent;
+  border-bottom:15px solid white;
+
+}
+.specificVenue .main-menu-select1:before{
+  content: "";
+  position: absolute;
+  /* left: 50%; */
+  margin-left: 35px;
+  width: 0px;
+  height: 0px;
+bottom: 0px;  /* margin: 0px auto; */
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #EA5B03;
+} 
+.under-text
+{
+  text-align:center;
+  /*margin-left:20px;*/
+}
+
+.line-div
+{
+  width:100%;
+    height:3px;
+    background-color:orange;
+}
+.circleProp{
+    position:absolute;
+    width:37px;
+    height:37px;
+    background:white;
+    top:-12px;
+    right:3px;
+    border:1px solid #a60202;
+    border-radius:50%;
+    text-align:center;
+    display: flex;
+    align-items:center;
+  }
+.circleProp span{
+  width:100%;
+}
+.svgblock{
+  width:55%;
+  height:55%;
+}
+.specificimage{
+  width:55%;
+  height:55%;
+}
+.specificimage img{
+  width:100%;
+  height:100%;
+}
+.main-div{
+  flex-wrap:wrap;
+}
+@media only screen and (min-width:768px) {
+.soccerclass .main-menu{
+  border-bottom:3px solid #ea5b03!important;
+}
+}
+
+@media only screen and (max-width:767px) {
+  
+  .nomenuselect{
+    display:none;
+  }
+  .under-text{
+        overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:pre-wrap;
+    font-size:14px;
+    width:20vw
+  }
+  .circleProp{
+    width:25px;
+    height:25px;
+    /* padding:5px; */
+    font-size:11px;
+  }
+  .main-menu {
+    height: 0px !important;
+  }
+  .specificVenue .main-menu-select1:before{
+    margin-left: 37px;
+
+  }
+  .specificVenue .main-menu-select1:after{
+    bottom:-2.5px;
+    margin-left: 37px;
+  }
+
+ 
+
+}
+ /* @media only screen and (max-width:1033px) { 
+
+  .main-menu-select1:before{
+    content: "";
+    position: absolute;
+    margin-left: 35px;
+    width: 0px;
+    height: 0px;
+    top: 135px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #EA5B03;
+  } 
+  .specificVenue .main-menu-select1:after{
+    content:"";
+    position:absolute;
+    top: 149px;    
+    margin-left:35px;
+    width:0px;
+    height:0px;
+    border-left:15px solid transparent;
+    border-right:15px solid transparent;
+    border-bottom:15px solid white;
+  
+  }
+} */

@@ -1,0 +1,58 @@
+.trainer-card{
+    /* display: flex; */
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+
+}
+.trainer_result_img{
+    width: 100%;
+    height: auto;
+}
+.trainer_img-div{
+    width: 38vw;
+    height: auto;
+}
+.trainer_swiper_div{
+    width: 40vw;
+}
+.trainer_swiper_parent .ant-card-body{
+padding: 16px !important;
+}
+.trainer_swiper_div .ant-rate svg{
+  height: 1rem;
+}
+.trainer_swiper_div .ant-rate-star{
+    margin-right: 0px;
+
+}
+
+.trainer_price{
+    font-size: 4vw !important;
+}
+
+
+.trainer_location{
+    font-size: 3.5vw !important;
+    color: #ffc107;
+}
+
+.text_size-1{
+    font-size: 4vw !important;
+}
+
+.text_size-2{
+   font-size: 3.5vw !important;  
+}
+
+.__trainer-result-category{
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+
+}
+.more_details_main i{
+    color: #fff;
+}
+.Add_fav_main .Trainer_div1 .ant-rate-star-zero .ant-rate-star-first, .ant-rate-star-zero .ant-rate-star-second, .ant-rate-star-half .ant-rate-star-second  {
+color:#cfd6e7 !important
+}

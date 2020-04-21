@@ -1,0 +1,178 @@
+.bookatrainer_time_icon .ant-time-picker-icon {
+  top: 30%;
+}
+.Bookatrainer_form_content_par2 span {
+  font-size: 1.25rem !important;
+}
+.Bookatrainer_form_content_par2 button {
+  font-size: 1.25rem !important;
+}
+
+.Bookatrainer_modalform .ant-modal-footer {
+  display: none !important;
+}
+.Bookatrainer_modalform .ant-modal-close {
+  padding: 0px !important;
+}
+.Bookatrainer_form_content_par1 {
+  text-align: left;
+}
+
+.modal_details {
+  display: flex;
+  padding: 5px;
+}
+
+.details_box {
+  width: 30%;
+  text-align: left;
+}
+.details_text_box {
+  width: 70%;
+  display: flex;
+  display: block;
+  text-align: left;
+}
+
+.book_trainer_modal_button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Bookatrainer_form_content_par2 {
+  display: flex;
+  /* width: 90vw; */
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+.modal_ratingstar_icon .anticon-star {
+  font-size: 14px !important;
+  /* margin-right: 5px !important; */
+}
+
+.modal_ratingstar_icon .ant-rate-star {
+  margin-right: 3px !important;
+}
+
+.details_price_box {
+  width: 30%;
+  display: flex;
+}
+
+.details_price_box_text {
+  width: 40%;
+  text-align: center;
+}
+.trainer_modal_cancel {
+  background-color: #24479d;
+}
+
+.trainer_modal_book {
+  background-color: #fadb14;
+}
+.book_trainer_modal_button button {
+  font-size: 1.75rem;
+  color: #fff;
+  border: 1px;
+}
+.book_trainer_modal_button {
+  margin-top: 8px !important;
+}
+.trainer_modal_slots_button {
+  background-color: #24479d;
+  color: antiquewhite;
+  border: 1px;
+}
+.Bookatrainer_form_content_par1 .mt-2 {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 700px) {
+  .book_trainer_modal_button button {
+    font-size: 3.5vw !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Bookatrainer_modalform .ant-modal-footer {
+    display: none !important;
+  }
+  .Bookatrainer_modalform .ant-modal-close {
+    padding: 0px !important;
+  }
+  .Bookatrainer_form_content_par1 {
+    text-align: left;
+  }
+
+  .modal_details {
+    display: flex;
+    padding: 5px;
+  }
+
+  .details_box {
+    width: 30%;
+    text-align: left;
+  }
+  .details_text_box {
+    width: 70%;
+    display: flex;
+  }
+
+  .book_trainer_modal_button {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Bookatrainer_form_content_par2 {
+    display: flex;
+    /* width: 90vw; */
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  .modal_ratingstar_icon .anticon-star {
+    font-size: 14px !important;
+    /* margin-right: 5px !important; */
+  }
+
+  .modal_ratingstar_icon .ant-rate-star {
+    margin-right: 3px !important;
+  }
+
+  .details_price_box {
+    width: 30%;
+    display: flex;
+  }
+
+  .details_price_box_text {
+    width: 40%;
+    text-align: center;
+  }
+  .trainer_modal_cancel {
+    background-color: #24479d;
+  }
+
+  .trainer_modal_book {
+    background-color: #fadb14;
+  }
+  .book_trainer_modal_button button {
+    font-size: 4vw;
+    color: #fff;
+    border: 1px;
+  }
+
+  .trainer_modal_slots_button {
+    background-color: #24479d;
+    color: antiquewhite;
+    border: 1px;
+  }
+  .Bookatrainer_form_content_par1 .mt-2 {
+    font-size: 5vw;
+  }
+}

@@ -1,0 +1,6 @@
+.antd_modal_addchoosevenue .ant-modal-footer{
+    display: none;
+}
+.antd_modal_addchoosevenue{
+    position: unset !important;
+}

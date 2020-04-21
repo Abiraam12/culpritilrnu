@@ -1,0 +1,94 @@
+/**/
+.searchboxcomp .searchinputbox{
+    border-radius: 20px;
+    box-shadow: 0 0 4px #cccccc;
+    padding: 8px 9px;
+    min-width: 400px;
+    position: relative;
+}
+
+.searchboxcomp p{
+	text-align: center;
+	font-size: 25px;
+	color:#EA5B02;
+	font-family: SFProDisplay-Regular !important;
+
+}
+.searchboxcomp .searchinputbox input{
+	outline: 0;
+	border:0;
+	width: 100%;
+	padding-right: 35px;
+	padding-left: 5px;
+}
+.searchboxcomp .searchinputbox svg{
+	position: absolute;
+	font-size: 26px!important;
+	right: 10px;
+}
+.searchboxcomp .searchinputbox svg path{
+	color: #e5e5e5;
+	/*font-size: 12px;*/
+}
+.additionalBoxes{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin:0 auto;
+	color:#0f3eb0;
+	font-size: 16px;
+}
+.additionalBoxes .MuiIconButton-colorPrimary{
+	padding-right: 3px;
+}
+.submitBtnClass{
+	text-align: center;
+}
+.submitBtnClass button{
+	outline: 0;
+	border: 0;
+	font-size: 1.25rem;
+    background: rgb(15, 62, 176);;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 18px;
+}
+.additionalBoxes a{
+	visibility: hidden;
+}
+.popover_quest{
+	/*width: 0;*/
+	padding:0;
+	color:rgb(15, 62, 176);
+	font-size: 24px;
+	border:0;
+}
+.popover_quest.ant-btn:hover,.popover_quest.ant-btn:focus{
+	background: transparent!important;
+	color:rgb(15, 62, 176);
+}
+.ant-popover-inner-content{
+	    margin-top: 50px!important;
+}
+@media screen and (max-width: 767px){
+.popover_quest{
+	background: transparent;
+}	
+.popover_quest i{
+	color: white;
+}
+.popover_quest.ant-btn:hover,.popover_quest.ant-btn:focus{
+	background: transparent!important;
+	color:rgb(166, 2, 2);
+}
+.submitBtnClass button{
+	font-size: 1.25rem !important;
+}
+}
+@media screen and (max-width: 500px){
+
+.submitBtnClass button{
+	font-size: 3.5vw !important;
+}
+}
