@@ -67,7 +67,7 @@
     "redux": "^4.0.1",
     "redux-connect": "^10.0.0",
     "semantic-ui-react": "^0.86.0",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "video-react": "^0.13.9",
     "webpack": "^4.41.5"
   },
